@@ -100,4 +100,27 @@ body {
     width: 350px;
     align-items: center;
     animation: oscillate 10s infinite ease-in-out alternate;
+
+@media (max-width: 768px) {
+    .main .image-container .image img {
+        width: 250px; /* Reduce el tamaño del holograma */
+    }
+
+    .main .image-container h1 {
+        font-size: 30px; /* Reduce el tamaño del título JARVIS */
+    }
+
+    .main .image-container p {
+        font-size: 14px; /* Reduce el tamaño del texto */
+    }
+
+    .main .input {
+        width: 80vw; /* El ancho del cuadro de entrada es más grande en pantallas pequeñas */
+        height: 40px;
+    }
+
+    .main .input .content {
+        font-size: 12px;
+    }
+}
 }
